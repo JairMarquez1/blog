@@ -1,0 +1,114 @@
+@media (max-width: 800px){
+	body{
+		margin:20px 3vw;
+	}
+}
+@media (min-width: 801px){
+	body{
+		margin:20px 20vw;
+	}
+}
+
+
+body{
+	background-color: rgb(10,20,30);
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+
+
+*{
+	color: white;
+	font-family: "Calibri"
+}
+
+header{
+	background: linear-gradient(rgb(217 133 0) 10%, rgb(229 63 63) 100%);
+	height: 15vh;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 15px;
+	box-shadow:1px 1px 10px black;
+
+
+}
+
+.master{
+	display:flex;
+}
+
+.contenido{
+	width: 70%;
+	background-color: rgb(0,0,0,0.9);
+	height: auto;
+	padding: 50px;
+	border-radius: 10px;
+	margin-right: 10px;
+	float:left;
+}
+
+.lateral{
+	width: 20%;
+	background-color: rgb(0,0,0,0.9);
+	height: auto;
+	padding: 50px;
+	border-radius: 10px;
+}
+
+nav{
+	text-decoration: none;
+	border-radius: 10px 10px 11px 11px;
+    background: linear-gradient(rgb(50,50,50,0.5) 10%, black 100%);
+}
+
+
+nav li:hover{
+	background-color: rgb(250,250,250,0.2);
+}
+
+
+nav ul{
+    padding: 18px;
+    text-align: center;
+}
+
+nav li{
+	transition: background-color 0.5s;
+    display: inline;
+    padding:18px 8px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+article{
+	margin-bottom: 90px;
+	text-align: justify;
+}
+
+.title{
+	color: orange;
+}
+
+.autor{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	border: 2px solid white;
+	border-radius: 3px;
+}
+
+footer{
+
+}
+
+b{
+	color:yellow;
+}
