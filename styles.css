@@ -19,13 +19,22 @@
 	.cetilogo{
 		width: 100px;
 	}
+	p,ul,ol{
+		font-size: 0.8em;
+	}
+	.title{
+		font-size:1.1em;
+	}
+	strong{
+		font-size: 0.9em;
+	}
 }
 
 @media (min-width: 901px){
 	body{
 		/*margin:20px 20vw;*/
 		margin: auto;
-		width: 900px;
+		width: 1000px;
 	}
 	.master{
 		display:flex;
@@ -40,6 +49,9 @@
 	}
 	.cetilogo{
 	width: 100%;
+	}
+	.title{
+		font-size: 1.5em;
 	}
 }
 
@@ -128,7 +140,6 @@ article{
 .title{
 	color: orange;
 	text-align: left;
-	font-size: 1.5em;
 	text-shadow: 1px 1px 5px;
 }
 
