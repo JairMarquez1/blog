@@ -127,8 +127,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: black;
-    font-weight: 600;
+    color: white;
 }
 
 
@@ -195,5 +194,6 @@ li{
 .separador{
 	border-top: 3px solid orange;
 	width: 100%;
-	height: 20px;
+	height: 10px;
 }
+
