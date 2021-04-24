@@ -123,6 +123,7 @@ nav li{
 	transition: background-color 0.5s;
     display: inline;
     padding:18px 8px;
+    /*box-shadow: 1px 0px 1px black;*/
 }
 
 nav li a{
